@@ -1,0 +1,302 @@
+body {
+	margin: 0;
+}
+/*************************************.header-menu********************/
+.header-menu {
+	background: url("images/bg-image-16.jpg");
+	background-size:100% 100%;
+	padding-bottom: 200px;
+	position: relative;
+}
+.left-logo img, 
+.footer-logo img{
+	border-radius: 8px;
+	box-shadow: 0 25px 65px rgba(0,0,0,.1);
+}
+.left-menu,
+.social-icon {
+	margin-top: 20px;
+}
+.header-text {
+	
+	width: 90%;
+	margin-top: 150px;
+}
+.header-text h5 {
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 5px;
+}
+.header-text h1 {
+	font-size: 78px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	text-transform: inherit;
+}
+.header-text b {
+	color: #F9004D;
+}		
+.ramjan ul li a {
+	color: #1d1d24;
+	text-transform: capitalize;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	transition: .3s;
+}
+.ramjan ul li a:hover {
+	color: #F9004D;
+}
+.ramjan>ul>li{
+	transition: .5s;
+}
+.ramjan>ul>li:hover .dropdown-menu{
+	display: block;
+}
+.ramjan .dropdown-menu {
+		min-width: 15rem;
+}
+.about-me {
+	
+}
+
+.social-icon {
+	margin-top: 40px;
+}
+.social-icon a{
+	color: #1d1d24;
+	font-size: 17px;
+	transition: .3s;
+}
+.social-icon a:hover {
+	color:#F9004D;
+}
+.ssbutton {
+	border: 2px solid #cccccc;
+	border-radius: 5px;
+	text-transform: uppercase;
+	padding: 5px 15px;
+	font-size: 12px !important;
+	transition: .5s;
+}
+.ssbutton:hover {
+	color: #fff !important;
+	background: #F9004D;
+	border: transparent;
+}
+#section1 {
+	display: none;
+}
+/*-----------------------------------carousel-area------------------------*/
+.carousel-area {
+	padding: 50px 0;
+}
+.carousel-area .owl-theme .owl-dots .owl-dot {
+	margin-top: 20px;
+}
+.carousel-area .owl-theme .owl-dots .owl-dot span {
+	height: 20px;
+	width: 20px;
+	background: #F9004D;
+	border: transparent;
+	outline: transparent;
+}
+.carousel-area .owl-theme .owl-dots .active span {
+	background: blue;
+}
+
+/*-----------------------------------client---------------------------*/
+.client {
+	padding: 80px 0;
+	overflow: hidden;
+}
+.client-text,.project-list {
+	width: 60%;
+	margin: auto;
+	margin-bottom: 80px;
+	overflow: hidden;
+}
+.single-item{
+	text-align: center;
+height: 214px;
+line-height: 214px;
+border: 1px solid rgba(0,0,0,.05);
+transition: .4s;
+border-radius: 5px;
+}
+.single-item:hover {
+	background: #F9004D;
+	
+	transform: scale(1.1);
+}
+/*******************************protfolio-item------------------------------*/
+.project {
+	padding: 80px 0;
+}
+p{
+	color: #717185;
+	font-size: 18px;
+}
+.bb {
+	color: #717185;
+	font-size: 20px;
+	font-weight: bold;
+}
+ h2 {
+	text-transform: capitalize;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 60px;
+}
+.protfolio-item {
+	position: relative;
+	transition: .5s;
+
+}
+.protfolio-item:hover {
+	transform:scale(1.1);
+		background: #F9004D;
+		cursor: pointer;
+}
+.protfolio-item:hover .overlay {
+	background: rgba(231, 76, 60,0.8);
+}
+.overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	background:rgba(44, 62, 80,.5);
+}
+.protfolio-text {
+	position: absolute;
+	top: 50%;
+	left:50%;
+	color: white;
+transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  text-align: center;
+}
+.protfolio-text h4 {
+	text-transform: capitalize;
+	font-size: 25px;
+	font-weight: bold;
+}
+.protfolio-text p{
+	text-transform: capitalize;
+	color: #ccc;
+}
+.protfolio-buuton {
+		border: 1px solid #ccc;
+		text-transform: uppercase;
+		color:white;
+		transition: .5s;
+		font-size: 14px;
+}
+.protfolio-buuton:hover{
+	background: #F9004D;
+	color:white;
+	border: 1px solid transparent;
+}
+.view-button {
+	text-transform: uppercase;
+	color: #fff;
+	background: #F9004D;
+	border-radius: 5px;
+	padding: 15px 40px;
+	transition: .5s;
+	border:2px solid transparent;
+}
+.view-button:hover {
+	background: transparent;
+	border:2px solid #F9004D;
+	color: #F9004D;
+}
+/*--------------------------------------contact---------------------------------------*/
+.contact {
+	padding-top: 80px;
+	padding-bottom: 120px;
+}
+.hire-text .bb:hover {
+	color:#F9004D;
+	text-decoration: none;
+}
+.form-area input[type="text"],
+.form-area input[type="email"],textarea {
+	text-transform: capitalize;
+	padding: 23px 12px;
+	
+}
+.submit-button {
+	text-transform: uppercase;
+	color: #fff;
+	background: #F9004D;
+	border-radius: 5px;
+	padding: 12px 50px;
+	transition: .5s;
+	border:2px solid transparent;
+}
+.submit-button:hover {
+	background: transparent;
+	border:2px solid #F9004D;
+	color: #F9004D;
+}
+/*-------------------------------footer-area-------------------------------------------*/
+.footer-area {
+	background: #1C1C23;
+	padding: 10px 0;
+}
+.footer-icon a {
+	color: #666;
+	border: 2px solid #666;
+	width: 48px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	border-radius: 100%;
+	display: inline-block;
+	transition: .5s;
+}
+.footer-icon a:hover {
+	background: #F9004D;
+	border: 2px solid transparent;
+	color: #fff;
+}
+.copy-text p{
+	font-size: 14px;
+	margin-top: 18px;
+}
+.scrolltotop{
+		position: fixed;
+		right: 50px;
+		bottom: 50px;
+		color: #fff;
+		width: 48px;
+		height: 48px;
+		line-height: 48px;
+		text-align: center;
+		border-radius: 100%;
+		display: block;
+		background: #F9004D;
+		font-size: 25px;
+		display: none;
+		z-index: 999999;
+
+}
+.signle-tab-item {
+	margin-top: 10px;
+	width: 50%;
+}
+.signle-tab-item a {
+	color: #717173;
+	text-decoration: none;
+
+}
+.tabs-area {
+	padding: 80px 0;
+}
+.nav-item a {
+	color: #F9004D;
+}
