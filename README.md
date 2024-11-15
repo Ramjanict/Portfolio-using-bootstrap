@@ -2,6 +2,8 @@
 ## **Introduction**
 This is a demo portfolio website using Bootstrap. This website is developed with clean code and is fully responsive for different devices.
 
+![](https://github.com/Ramjanict/Portfolio-using-bootstrap/blob/main/Portfolio-using-bootstrap/bootstrap.png?raw=true)
+
 
 ## **Technology stack**
 HTML, Bootstrap
